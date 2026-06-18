@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    padding: 20px;
+}
+h1 {
+    color: blue;
+    text-align: center;
+}
+p {
+    line-height: 1.6;
+    max-width: 700px;
+}
+h2 {
+    color: green;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+a {
+    color: blue;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: red;
+}
