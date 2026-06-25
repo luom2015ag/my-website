@@ -1,7 +1,26 @@
 # Trang web giới thiệu cá nhân
 
-Đây là bài tập thực hành buổi 1 môn Lập trình Web. Dự án này là một trang web tĩnh cơ bản sử dụng HTML và CSS để hiển thị thông tin cá nhân.
+Đây là dự án thực hành Lab 2 môn Lập trình Web.
 
 ## Tác giả
-* **Họ và tên:** Phạm Văn Lượm
-* **Ngành học:** Công Nghệ Thông Tin
+
+- Họ tên: Phạm Văn Lượm
+- Ngành học: Công nghệ Thông tin
+
+## Chức năng
+
+- Trang chủ (index.html)
+- Trang giới thiệu (about.html)
+- Trang liên hệ (contact.html)
+- Form liên hệ có Validation HTML5
+- Hình ảnh cá nhân
+- Bảng kế hoạch học tập
+- Điều hướng giữa các trang
+
+## Công nghệ sử dụng
+
+- HTML5
+- CSS3
+- Git
+- GitHub
+
