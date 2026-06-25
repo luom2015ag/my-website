@@ -1,0 +1,203 @@
+    <!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+      content="Liên hệ với Phạm Văn Lượm thông qua biểu mẫu trực tuyến, gửi câu hỏi, góp ý hoặc kết nối học tập và trao đổi về công nghệ thông tin.">
+   <title>Phạm Văn Lượm - Liên hệ và kết nối với tôi trực tuyến</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Phạm Văn Lượm</h1>
+    <p>Sinh viên Công nghệ Thông tin</p>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="about.html">Giới thiệu</a></li>
+            <li><a href="contact.html">Liên hệ</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Liên hệ</h2>
+
+        <form>
+
+            <fieldset>
+    <legend>Thông tin cá nhân</legend>
+
+    <label for="fullname">
+        Họ và tên:
+    </label>
+    <br>
+
+    <input
+        type="text"
+        id="fullname"
+        name="fullname"
+        required
+        minlength="2">
+
+    <br><br>
+
+    <label for="email">
+        Email:
+    </label>
+    <br>
+
+    <input
+        type="email"
+        id="email"
+        name="email"
+        required>
+
+    <br><br>
+
+    <label for="phone">
+        Điện thoại:
+    </label>
+    <br>
+
+    <input
+        type="tel"
+        id="phone"
+        name="phone"
+        pattern="[0-9]{10,11}">
+    <br><br>
+
+<label for="birthday">
+    Ngày sinh:
+</label>
+<br>
+
+<input
+    type="date"
+    id="birthday"
+    name="birthday">
+<br><br>
+
+<label for="university">
+    Trường đại học:
+</label>
+<br>
+
+<input
+    type="text"
+    id="university"
+    name="university"
+    list="universities">
+
+<datalist id="universities">
+    <option value="Đại học An Giang">
+    <option value="Đại học Cần Thơ">
+    <option value="Đại học Quốc gia TP.HCM">
+    <option value="Đại học Bách Khoa TP.HCM">
+    <option value="Đại học Gia Định TP.HCM">
+
+</datalist>
+
+
+</fieldset>
+
+            <br>
+
+           <fieldset>
+    <legend>Nội dung liên hệ</legend>
+
+    <label for="subject">
+        Chủ đề:
+    </label>
+    <br>
+
+    <select id="subject" name="subject">
+        <option value="hoc_tap">Học tập</option>
+        <option value="tu_van">Tư vấn</option>
+        <option value="hop_tac">Hợp tác</option>
+    </select>
+
+    <br><br>
+
+    <p>Kênh liên hệ mong muốn:</p>
+
+    <input type="radio" id="email_contact" name="contact_method" value="email">
+    <label for="email_contact">Email</label>
+
+    <input type="radio" id="phone_contact" name="contact_method" value="phone">
+    <label for="phone_contact">Phone</label>
+
+    <input type="radio" id="zalo_contact" name="contact_method" value="zalo">
+    <label for="zalo_contact">Zalo</label>
+
+    <br><br>
+
+    <label for="message">
+        Nội dung:
+    </label>
+    <br>
+
+    <textarea
+        id="message"
+        name="message"
+        rows="5"
+        required
+        minlength="10"></textarea>
+
+    <br><br>
+
+    <input
+        type="checkbox"
+        id="agree"
+        name="agree"
+        required>
+
+    <label for="agree">
+        Tôi đồng ý với các điều khoản
+    </label>
+
+</fieldset>
+
+            <br>
+
+            <button type="submit">Gửi</button>
+            <button type="reset">Xóa</button>
+
+        </form>
+
+    </section>
+</main>
+
+<footer>
+
+    <address>
+        Email:
+        <a href="mailto:luom2606@gmail.com">
+            luom2606@gmail.com
+        </a>
+
+        <br>
+
+        Điện thoại:
+        <a href="tel:0866838871">
+            0866838871
+        </a>
+    </address>
+
+    <p>
+        Cập nhật:
+        <time datetime="2026-06-01">
+            01/06/2026
+        </time>
+    </p>
+
+    <p>&copy; 2026 Phạm Văn Lượm</p>
+
+</footer>
+
+</body>
+</html>
